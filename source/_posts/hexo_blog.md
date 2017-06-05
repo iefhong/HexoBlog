@@ -8,6 +8,7 @@ tags:
 ---
 Hexo博客的用法，官方的文档写的有一些简单。很多点受限于英文水平，一直没有看懂。  
 后面通过实践以及一些技术博客，慢慢了解到Hexo的语法。  
+hexo的markdown支持格式有点奇怪，vs code里面编辑好的页面在hexo生成的静态页面中没有显示正确的样式(如无序列表)
 
 # Hexo结构
 * _config.yml  
@@ -29,10 +30,12 @@ Hexo博客的用法，官方的文档写的有一些简单。很多点受限于�
     $ hexo init [folder]
     ```
     folder为项目名，命令为生成一个新的Hexo项目
+
 * New
     ```
     $ hexo new [layout] <title>
-    ```  
+    ```
+
     layout默认为文章，title为文件标题(有空格时，需要用引号)  
     layout
     * page 
@@ -46,28 +49,22 @@ Hexo博客的用法，官方的文档写的有一些简单。很多点受限于�
     * tag 
     标签  
 
-* Generate 
+* 生成静态页面
     ```
     $ hexo generate
-    ```  
-    生成静态页面
+    ```
 
-* Server 
+* 本地服务器调试
     ```
     $ hexo server
     ```
-    本地服务器调试
 
-* Deploy
+* 发布
     ```
     $ hexo deploy
     ```
-    发布
-* Clean
+
+* 清理缓存文件db.json
     ```
     $ hexo clean
     ```
-    清理缓存文件db.json
-
-
-    
