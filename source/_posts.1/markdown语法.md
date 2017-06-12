@@ -1,6 +1,5 @@
 ---
 title: markdown语法
-date: 2017-05-11 11:39:21
 categories:
 - programming
 tags:
