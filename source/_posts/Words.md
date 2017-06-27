@@ -110,3 +110,8 @@ tags:
 限制(v)
 * annotation  
 注释(n)
+# 0615  
+* recipe  
+食谱(n)
+
+
